@@ -1,20 +1,19 @@
 {
-  "name": "treat-yo-selfz",
+  "name": "treat-yo-self",
   "version": "1.0.0",
-  "description": "Treat yo self.",
-  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "firebase": "^4.8.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "reactfire": "^1.0.0"
+  },
   "scripts": {
-    "test": "jest",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
     "deploy": "firebase deploy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SamPedley/Treat-Yo-Selfz.git"
-  },
-  "author": "Sam Pedley",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SamPedley/Treat-Yo-Selfz/issues"
-  },
-  "homepage": "https://github.com/SamPedley/Treat-Yo-Selfz#readme"
+  }
 }
